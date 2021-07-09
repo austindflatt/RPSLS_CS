@@ -8,7 +8,7 @@ namespace RPSLS
         {
             Human playerOne = new Human("Austin");
             Human playerTwo = new Human("Playertwo");
-            CPU cpuPlayer = new CPU("Computer");
+            Computer cpuPlayer = new Computer("Computer");
             PlayersList playerList = new PlayersList();
             playerList.AddPlayer(playerOne);
             playerList.AddPlayer(playerTwo);
